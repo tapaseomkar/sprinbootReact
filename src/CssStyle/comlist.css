@@ -1,0 +1,51 @@
+.user-list-container {
+    margin: 20px;
+  }
+  
+  .user-list-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 25px 0px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px; 
+  }
+  
+  .user-item-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  .user-list-container {
+    background-color: #f0f5ff; 
+  }
+  
+  .user-list-header {
+    background-color: #007bff; 
+    color: #fff; 
+  }
+  
+  .user-item:nth-child(even) {
+    background-color: #edf5ff; 
+  }
+  
+  .user-item-actions button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user-item-actions button:hover {
+    background-color: #0056b3; 
+  }
+  

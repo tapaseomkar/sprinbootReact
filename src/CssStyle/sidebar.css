@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+  }
+  
+  .sidebar {
+    background: #0d1117;
+    max-width: 1000px;
+    width: 190px;
+    height: 100vh;
+    border-right: 5px solid #7b61ff;
+  }
+  
+  #head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+  }
+  
+  #head .logo {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    padding-right: 15px;
+    color: aliceblue;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 5px 0;
+  }
+  
+  .list li {
+    margin: 5px;
+    padding: 5px 35px;
+  }
+  
+  .list li:hover {
+    border-radius: 5px;
+    background-color: #7b61ff;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
