@@ -1,0 +1,50 @@
+/* emplist.css */
+
+.user-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.user-list-header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.user-list-header > div {
+  padding: 0 10px;
+}
+
+.user-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.user-item > div {
+  padding: 0 10px;
+}
+
+.user-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.user-item-actions button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-item-actions button:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}

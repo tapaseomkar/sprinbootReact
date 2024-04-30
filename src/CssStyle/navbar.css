@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.navbar .logo-text {
+    font-size: 24px; /* Adjust as needed */
+    color: white;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
